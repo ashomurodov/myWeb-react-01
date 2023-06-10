@@ -1,0 +1,38 @@
+.priceBox {
+  display: flex;
+  background-color: #d9d9d9c1;
+  padding: 0px 13px;
+  align-items: center;
+  gap: 12px;
+}
+
+.priceBox h3 {
+  font-weight: 500;
+}
+
+.priceBox p {
+  font-weight: 200;
+}
+
+.section__title {
+  margin-bottom: 30px !important;
+}
+
+.pricingBoxContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.component_container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0px 30px;
+  gap: 13px;
+}
+
+.component_container img {
+  width: 70%;
+  margin: auto;
+}

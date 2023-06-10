@@ -1,0 +1,7 @@
+.skillsContainer {
+  display: grid;
+  gap: 21px;
+  grid-template-areas:
+    "a b c"
+    "a d d";
+}

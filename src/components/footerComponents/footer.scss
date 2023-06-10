@@ -1,0 +1,28 @@
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+img {
+  width: 40%;
+}
+
+.subscribe_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+
+  .section__title {
+    margin: 0px !important;
+  }
+}
+
+form {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}

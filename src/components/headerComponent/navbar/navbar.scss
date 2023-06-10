@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navbar__left {
+    h3 {
+      font-size: 50px;
+      font-weight: 600;
+
+      span {
+        color: #00000042;
+      }
+    }
+  }
+
+  .navbar__right {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+    &-menus {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      font-size: 22px;
+    }
+  }
+}
+

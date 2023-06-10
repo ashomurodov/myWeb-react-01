@@ -1,0 +1,21 @@
+.big__text {
+  font-size: clamp(2.4rem, 3.6vw, 9rem);
+}
+
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__right {
+    img {
+      width: 700px;
+    }
+  }
+
+  &__center {
+    img {
+      width: 100px;
+    }
+  }
+}
